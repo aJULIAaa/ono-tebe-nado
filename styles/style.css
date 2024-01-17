@@ -1,8 +1,41 @@
-.header__logo-image {
+.header {
+    display: grid;
+    grid-template-columns: 400px 1fr 1fr;
+    width: 1052px;
+    height: 105px;
+    padding: 92px 24px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    
+}
+.header__logo {
     display: block;
     width: 148px;
     height: 105px;
+    /* text-align: center; */
+    /* align-self: center; */
 }
 
+.header__logo-image {
+    width: 100%;
+    
+}
+.header__links-list {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    list-style: circle;
+}
+
+.header__menu {
+    justify-self: end;
+
+}
+   
+.header__links-list-item_no-bullit {
+    list-style: none;
+
+}
 
     /* место для вашего кода */
