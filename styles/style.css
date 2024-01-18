@@ -26,10 +26,21 @@
     line-height: 21.1px;  
 }
 
-.header__menu {
-
-}
-   
 .header__links-list-item_no-bullit {
     list-style: none;
+
+}
+.header__address {
+
+font-size: 18px;
+line-height: 24px;
+font-style: normal;
+padding: 5px 25px 2px 180px;
+}
+.cover {
+
+padding: 96px 24px 179px 24px;
+background-image: url(../images/cover.jpg);
+background-position: center;
+background-repeat: no-repeat;
 }
